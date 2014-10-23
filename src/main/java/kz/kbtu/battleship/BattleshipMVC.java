@@ -26,7 +26,6 @@ public final class BattleshipMVC {
 		BattleshipModelInterface m = new BattleshipModel();
 		BattleshipViewInterface v = new BattleshipView();
 		new BattleshipController(m, v);
-
 	}
 
 }
