@@ -52,7 +52,5 @@ public class BattleshipModel implements BattleshipModelInterface {
 		} else {
 			return 0;
 		}
-
 	}
-
 }

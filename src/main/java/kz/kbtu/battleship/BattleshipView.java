@@ -60,12 +60,12 @@ public class BattleshipView implements BattleshipViewInterface {
 	/**
 	 * Combo Box used to hold the selection of ships for the input boards.
 	 */
-	private JComboBox shipChoice;
+	private JComboBox<?> shipChoice;
 
 	/**
 	 * Combo Box used to hold the selection of directions for the input boards.
 	 */
-	private JComboBox dirChoice;
+	private JComboBox<?> dirChoice;
 
 	/**
 	 * Deploy button for the input boards.
